@@ -1,0 +1,31 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ai-chat (0.1.1)
+      base64 (~> 0.1)
+      mime-types (~> 3.0)
+      openai (~> 0.14)
+      zeitwerk (~> 2.7)
+    amazing_print (1.8.1)
+    base64 (0.3.0)
+    connection_pool (2.5.3)
+    dotenv (3.1.8)
+    logger (1.7.0)
+    mime-types (3.7.0)
+      logger
+      mime-types-data (~> 3.2025, >= 3.2025.0507)
+    mime-types-data (3.2025.0729)
+    openai (0.15.0)
+      connection_pool
+    zeitwerk (2.7.3)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  ai-chat
+  amazing_print
+  dotenv
+
+BUNDLED WITH
+   2.4.6
